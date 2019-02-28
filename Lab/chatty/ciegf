@@ -1,0 +1,9 @@
+c(server).
+server:start().
+
+
+c(client).
+client:start({myserver,'server@127.0.0.1'},"Peter").
+
+c(client).
+client:start({myserver,'server@127.0.0.1'},"Adri").
